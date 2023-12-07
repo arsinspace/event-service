@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: Aa123456
+    url: jdbc:postgresql://178.173.55.98:5432/eventServiceDB
+  liquibase:
+    default-schema: migration
